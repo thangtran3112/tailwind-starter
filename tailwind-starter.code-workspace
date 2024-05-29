@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "all-project-assets"
+    },
+    {
+      "path": "mini-projects"
+    },
+    {
+      "path": "simple-tailwind-starter"
+    },
+    {
+      "path": "tailwind-sandbox-done"
+    },
+    {
+      "path": "tailwind-sandbox-starter"
+    },
+    {
+      "path": "webpack-tailwind-starter"
+    },
+    {
+      "path": "website-projects"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "tailwind-sandbox-done"
+  }
+}
