@@ -31,18 +31,31 @@
       Submit
     </button>
 
-    <br>
+    <br />
 
     <!-- Styling based on parent state -->
     <!-- When you need to style an element based on the state of some parent element, mark the parent with the group class, and use group-* modifiers like group-hover to style the target element: -->
-    <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
-  <div class="flex items-center">
-    <h3 class="group-hover:text-white">Card Title</h3>
-  </div>
-  <p class="group-hover:text-white">This is some card text</p>
-</a>
+    <a
+      href="#"
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <div class="flex items-center">
+        <h3 class="group-hover:text-white">Card Title</h3>
+      </div>
+      <p class="group-hover:text-white">This is some card text</p>
+    </a>
 
- <br>
+    <br />
+
+    <!-- Pseudo Elements -->
+    <ul>
+      <li class="first:bg-red-200">red</li>
+      <li class="first:bg-red-200">red</li>
+      <li class="first:bg-red-200">red</li>
+      <li class="first:bg-red-200">red</li>
+      <li class="first:bg-red-200">red</li>
+      <li class="first:bg-red-200">red</li>
+    </ul>
 
     <!-- Pseudo Classes -->
     <ul>
@@ -77,9 +90,9 @@
     <!-- Cursor -->
     <button
       type="button"
-      class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-pointer"
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-pointer hover:bg-orange-500 hover:text-black"
     >
-      Submit
+      Pointer
     </button>
     <button
       type="button"
@@ -92,7 +105,7 @@
       disabled
       class="bg-black text-red-200 py-3 px-5 rounded-lg m-3 cursor-not-allowed"
     >
-      Confirm
+      Not Allowed
     </button>
 
     <br />
@@ -101,8 +114,8 @@
     <textarea class="border border-black rounded resize"></textarea>
 
     <!-- User Select -->
-    <div class="select-none">Lorem ipsum dolor sit amet.</div>
-    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-none">Lorem ipsum select none.</div>
+    <div class="select-text">Lorem ipsum dolor select text.</div>
     <div class="select-all">Lorem ipsum dolor sit amet.</div>
     <div class="select-auto">Lorem ipsum dolor sit amet.</div>
 
