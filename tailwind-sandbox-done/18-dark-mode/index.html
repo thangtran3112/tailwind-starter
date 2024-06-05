@@ -7,8 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
-        darkMode: 'class',
-      }
+        darkMode: "class",
+      };
     </script>
     <style>
       .toggle-checkbox:checked {
@@ -24,7 +24,7 @@
   </head>
   <body>
     <div
-      class="container mx-auto mt-10 bg-white dark:bg-slate-900 rounded-xl px-6 py-8 shadow xl"
+      class="container mx-auto mt-10 bg-slate-100 dark:bg-slate-800 rounded-xl px-6 py-8 shadow xl"
     >
       <h3 class="text-slate-900 dark:text-white font-medium tracking-tight">
         Lorem ipsum dolor sit.
@@ -52,13 +52,13 @@
     </div>
 
     <script>
-      document.getElementById('toggle').addEventListener('change', function () {
+      document.getElementById("toggle").addEventListener("change", function () {
         if (this.checked) {
-          document.documentElement.classList.add('dark')
+          document.documentElement.classList.add("dark");
         } else {
-          document.documentElement.classList.remove('dark')
+          document.documentElement.classList.remove("dark");
         }
-      })
+      });
     </script>
   </body>
 </html>
