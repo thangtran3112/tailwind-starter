@@ -20,9 +20,12 @@
     },
     {
       "path": "website-projects"
+    },
+    {
+      "path": "tailwind-cli-starter"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "tailwind-sandbox-done"
+    "liveServer.settings.multiRootWorkspaceName": "mini-projects"
   }
 }
