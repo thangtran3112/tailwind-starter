@@ -7,13 +7,7 @@
       "path": "mini-projects"
     },
     {
-      "path": "simple-tailwind-starter"
-    },
-    {
       "path": "tailwind-sandbox-done"
-    },
-    {
-      "path": "tailwind-sandbox-starter"
     },
     {
       "path": "webpack-tailwind-starter"
@@ -26,6 +20,6 @@
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "mini-projects"
+    "liveServer.settings.multiRootWorkspaceName": "website-projects"
   }
 }
